@@ -13,4 +13,6 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/in
 ```
 
 ## Run command
+```
 PS C:\Users\Can\Desktop> Get-Content <Path_To_Your_packages.txt> | ForEach-Object { choco install -y $_ }
+```
