@@ -4,7 +4,7 @@ golang
 nodejs
 python2
 python3
-docker
+docker-for-windows
 gradle
 AndroidStudio
 android-sdk
